@@ -6,7 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'dis') {
+    if (message.content === 'ds.') {
+    	message.reply('https://discord.gg/aprJuVg');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'yt.') {
     	message.reply('https://discord.gg/aprJuVg');
   	}
 });
