@@ -13,7 +13,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'yt.') {
-    	message.reply('https://discord.gg/aprJuVg');
+    	message.reply('https://www.youtube.com/channel/UCqehLUaBDWE2pU76SgW6eKw?view_as=subscriber');
   	}
 });
 
