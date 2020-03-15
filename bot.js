@@ -6,10 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'dis') {
-    	message.reply('https://discord.gg/aprJuVg');
+    if (message.content === 'Hello') {
+    	message.reply('Hi');
   	}
 });
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
