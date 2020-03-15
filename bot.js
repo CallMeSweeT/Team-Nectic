@@ -9,6 +9,8 @@ client.on('message', message => {
     if (message.content === 'ds.') {
     	message.reply('https://discord.gg/aprJuVg');
   	}
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
 client.on('message', message => {
