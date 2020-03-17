@@ -17,11 +17,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === '.rc') {
-    	message.reply('@managers, need help');
-  	}
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
