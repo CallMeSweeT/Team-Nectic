@@ -6,19 +6,19 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '-ds') {
+    if (message.content === '+ds') {
     	message.reply('https://discord.gg/aprJuVg');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '-yt') {
+    if (message.content === '.+yt') {
     	message.reply('https://www.youtube.com/channel/UCqehLUaBDWE2pU76SgW6eKw?view_as=subscriber');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '-rc') {
+    if (message.content === '+rc') {
     	message.reply('@managers, need help');
   	}
 });
