@@ -18,8 +18,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '.kuh') {
-    	message.reply('Fuck me Nigga');
+    if (message.content === '.code') {
+    	message.reply('.yt, .dis');
   	}
 });
 
