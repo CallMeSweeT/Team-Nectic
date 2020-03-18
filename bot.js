@@ -18,8 +18,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '.code') {
-    	message.reply('.yt, .dis');
+    if (message.content === '.rc') {
+    	message.reply('Tags: Nectic, Nec');
   	}
 });
 
