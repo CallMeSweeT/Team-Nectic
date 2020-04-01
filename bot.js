@@ -6,8 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+    if (message.content === '.scim') {
+    	message.reply('https://discord.gg/WMYjAbv');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === '.dis') {
-    	message.reply('https://discord.gg/aprJuVg');
+    	message.reply('https://discord.gg/X6zanqU');
   	}
 });
 
