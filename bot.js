@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '.scim') {
+    if (message.content === '.scrim') {
     	message.reply('https://discord.gg/WMYjAbv');
   	}
 });
