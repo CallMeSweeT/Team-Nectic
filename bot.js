@@ -12,7 +12,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '.dis') {
+    if (message.content === '.discord') {
     	message.reply('https://discord.gg/X6zanqU');
   	}
 });
